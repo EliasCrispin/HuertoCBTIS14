@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HUERTO ESCOLAR CBTIS 14</title>
+    <link rel="stylesheet" href="esti.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <center>
+        <div class="logoytitulo">
+        <img id="cb14" src="https://scontent.fzih1-1.fna.fbcdn.net/v/t39.30808-6/485303792_1231142322354285_8864396475148038863_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=XvYtG_X19MQQ7kNvwElWkms&_nc_oc=AdlsuFFY8x5dowvGkA7nWrGVdUtXrin-Z1aLWnrAuHLlfJz5yck_SvmN-eXvAjXHwCQjTNXYtbArNdr_Pe9GpeWF&_nc_zt=23&_nc_ht=scontent.fzih1-1.fna&_nc_gid=FD1WIolncH_HOkT5pJZYIQ&oh=00_AflOtEkpA_Ay1Jd9qkok4CvQXy3KKZgUlbyWifn9AExA2w&oe=693C24B3"> <h1 class="titulo">HUERTO ESCOLAR CBTIS 14</h1> 
+        </div>
+    </center>
+    
+    <div class="cont">
+        <div class="huerto">
+            <h4 class="textoP">El Huerto escolar es un espacio dentro o cercano a la escuela, destinado para cultivar hortalizas, granos básicos, frutas, plantas medicinales, hierbas comestibles y ornamentales; con el fin de aprender, generar y consumir sus propios alimentos que son más sanos y frescos, y mejorando la economía.</h4>
+            <div class="cuadros">
+                <h4 class="textoRazones">Razones para crear un huerto escolar</h4>
+                <b>- Desarrollo de habilidades motrices.</b> <h4 class="raz">Plantar el huerto requiere remover la tierra y utilizar instrumentos con las manos como palas o regaderas, por lo que los alumnos mejorarán sus habilidades motrices.</h4>
+                <b>- Responsabilidad.</b><h4 class="raz">Cada uno asumirá una responsabilidad en relación al huerto y esto les enseñará la importancia de tomar decisiones, asumir las consecuencias de las mismas y actuar con diligencia.</h4>
+                <b>- Sostenibilidad.</b><h4 class="raz">Los huertos escolares pueden ser una forma de enseñar la importancia de la sostenibilidad. Por ejemplo, se puede utilizar lo que se deseche del huerto (frutas que se han estropeado, etc.) como abono natural de los próximos cultivos. Otra idea es cultivar plantas pequeñas que crezcan rápido y que sirvan de abono a otras plantas. Pueden ser tréboles o alfalfa, entre otras.</h4>
+            </div>
+        </div>
+        <div class="ima">
+            <img class="fotoHuerto" src="https://extraescolaresyocio.com/wp-content/uploads/2019/06/Huerto-Urbano-como-crear-un-proyecto-escolar-de-huerto.jpg" alt="huerto escolar">
+        </div>
+    </div>
+    <br><br>
+    <center><h2 class="Info">🌱 INFORMACION DE LAS PLANTAS 🌱</h2></center>
+    <!-- ESPACIO PARA COMBOBOX -->
+    <center>
+    <select id="Plantas" class="Combo" onchange="Plantas()">
+        <option value="def">Seleccione una planta</option>
+        <option value="planta1">Fresas</option>
+        <option value="planta2">Tomate</option>
+        <option value="planta3">Frijoles</option>
+        <option value="planta4">Lechuga</option>
+        <option value="planta5">Árbol de almendras</option>
+    </select>
+    </center>
+    <!-- FIN DE COMBOBOX -->
+    <div class="grancontenedor">
+        <center><button onclick="Crecimientos()" class="botonflecha"> Después.. <span class="flecha">➜</span></button></center>
+        <br>
+        <h3 class="nom" id="nombre1">NOMBRE:</h3>
+        <div class="cont2">
+        <img id="imagenPlantas" class="fotoplanta" src="https://www.elinformador.com.co/images/stories/general/2017/07-julio/04RetoPiensaVerde1.jpg" alt="imagenP">
+        <div class="historia">
+            <h4 class="textoH" id="origen">aaaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaa aaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaaaa aaaaaaaaaa aaaaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaa</h4>
+        </div>
+        <div class="subcont2">
+        <div class="beneficios">
+            <h4 class="textoB" id="beneficios">dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</h4>
+        </div>
+        <div class="cuidados">
+            <h4 class="textoC" id="cuidados">hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</h4>
+        </div>
+        </div>
+
+        </div>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
